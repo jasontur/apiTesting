@@ -5,8 +5,8 @@ Feature: Many Important Repo
 
             | owner    | project         |
             | Behat    | Behat           |
-            | laravel  | laravel         |
-            | laravel  | framework       |
+            | jasontur  | ToolList         |
+            | jasontur  | ToolList2       |
 
         When I watch each repository
         Then my watchlist will include those repositories
